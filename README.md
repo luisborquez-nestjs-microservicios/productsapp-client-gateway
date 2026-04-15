@@ -20,3 +20,9 @@ El client-gateway es el punto de comunicación entre el cliente y los microservi
     ```
 5. Tener levantados los microservicios que se van a consumir
 6. Iniciar la aplicación `npm run start:dev`
+
+## Prod
+Ejecutar
+```
+docker build -f dockerfile.prod -t client-gateway .
+```
